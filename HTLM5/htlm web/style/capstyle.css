@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@1,400;1,700&display=swap');
+/*selector grupal*/
+body {
+    background: linear-gradient(-45deg, #F2EEE3, #E9D1D0, #FAE0BA, #EB8C73, #F0DED1, #DEC4A7);
+	background-size: 1200% 1200%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+   
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+    /* code de degrade en animacion */
+}
+
+header {
+    background-image: url(../imagenes/);
+    text-shadow: 0 0 9px rgb(8, 3, 8);
+    background-repeat: no-repeat ;
+    background-size:contain ;
+   
+}
+
+header h3 {
+    color: blanchedalmond;
+    text-shadow: 0px 0px 5px black;
+    text-align: center;
+
+    
+}
+
+header h1 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    box-sizing: border-box;
+    text-align: center;
+    color: blanchedalmond;
+   
+
+}
+
+header h2 {
+    margin-left: 80px;
+    padding-left: 475px;
+    padding-right: 75px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+#navegador ul{
+    list-style-type: none;
+    text-align: center;
+ }
+ 
+ #navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+    float: center;
+ }
+
+ #navegador li a {
+    padding: 2px 7px 2px 7px;
+    color: #666;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+ }
+
+ #navegador li a:hover{
+    background-color: #333333;
+    color: #ffffff;
+ }
+
+
+ #navegador2 ul{
+    list-style-type: none;
+    text-align: center;
+ }
+ #navegador2 li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+    float: center;
+ }
+ #navegador2 li a {
+    padding: 2px 7px 2px 7px;
+    color: #666;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+ }
+ #navegador2 li a:hover{
+    background-color: #333333;
+    color: #ffffff;
+ }
+
+
+/*Sub-titulos de textos*/
+article h3 {
+    color:#fad4fd;
+    text-shadow: 0px 0px 3px  #fad4fd;
+}
+
+div hr {
+    box-sizing: border-box;
+    width: auto;
+    height: 1px;
+    object-fit: repeat;
+    padding: 3%;
+    background-image: url(../imagenes/banner-hippie.jpg);
+    background-repeat: repeat-x;
+
+
+}
+
+
+p {
+    color: rgb(0, 0, 0);
+    
+}
+
+article h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: #cfb8c0;
+    color: black;
+    border-radius: 15px;
+
+    box-sizing: border-box;
+}
+
+article h3 {
+    text-shadow: 0 0 8px rgb(10, 6, 4);
+
+}
+
+
+
+/*selector descendente - Solo aplica al hijo dentro de un padre "por herencia"*/
+
+article div {
+    text-align: center;
+
+
+}
+
+article div:hover {
+    border-radius: 15px;
+
+}
+
+
+form {
+    background-color: rgba(3, 0, 3, 0.404);
+    border: 1px outset;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+    width: 500px;
+    border-radius: 5%;
+    transform-box: initial;
+    box-shadow: 0 18px 16px 0 #7894b1, 0 17px 50px 0 #788da1;
+    transform-origin: bottom;
+    transform: skew(40dg);
+}
+
+form-register {
+    width: 200px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 20%;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-shadow: #f1a0bd;
+}
+
+.controls {
+    width: 50%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+form.label {
+    text-align: justify;
+
+}
+
+
+
+/*
+
+table {
+    border: dotted rgb(23, 92, 124);
+    width: center;
+    text-align: center;
+    margin-left: 40%;
+}
+
+td {
+    border: #bb0844;
+    margin-block: solid black;
+    text-align: center;
+}
+td iframe{
+   
+    margin-left: none;
+       background-color: rgb(212, 88, 212);
+    padding: 6px 6px;
+    text-decoration: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: inline;
+}
+
+
+article ul {
+    list-style-type: none;
+    text-align: justify;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: inline;
+
+}
+
+
+li {
+    background: rgb(168 , 139 , 190 );
+    padding: 1px;
+    text-size-adjust: 100px;
+    display: inline;
+    float: left;
+}
+a{
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+ul ul {
+    background: #dd8282;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+    text-size-adjust: 100px;
+    display: inline;
+}*/
+/*div{
+    /*  
+    width: 500px;
+    height: 300px;
+    background-color: aqua;
+    border: 1px solid black;
+    margin-left: 80px;
+    padding-left: 75px;
+    padding-right: 75px;
+    box-sizing: border-box; 
+    background-image: url(../imagenes/e0a9c79e82736f00966c9704cb240baa.jpg);
+    background-repeat:round;
+    background-size: 100%;
+    
+    */
+/* para abosorver los padding y no deforme el box*/

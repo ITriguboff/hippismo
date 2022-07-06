@@ -1,0 +1,83 @@
+/* code de degrade en animacion */
+body {
+    background: linear-gradient(-45deg, #F2EEE3, #E9D1D0, #FAE0BA, #EB8C73, #F0DED1, #DEC4A7);
+	background-size: 800% 800%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+    /* code de degrade en animacion */
+}
+
+
+header {
+   text-align: center;
+}
+header h2{
+
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: fixed #f1a0bd;
+    text-shadow: 0 0 2px rgb(226, 112, 59);
+    text-align: center;
+    color: azure;
+    padding: auto;
+    
+}
+body.p{
+   color: azure;
+   text-decoration-color: aqua;
+   text-align: justify;
+   padding: auto;
+   margin: auto;
+}
+body h1 {
+    color: blanchedalmond;
+    text-shadow: 0px 0px 5px black;
+}
+
+main h1{
+    text-align: center;
+}
+main p {
+    text-align: justify;
+    color: rgb(10, 10, 10);
+    text-shadow: 0px 0px 0px black;
+}
+
+section {
+    text-align: justify;
+    transform-origin: bottom;
+   
+}
+a:hover {
+color: rgb(5, 5, 5);
+    letter-spacing: 0, 25em;
+    font-size: auto;
+     box-shadow: 0 2px 6px 0 rgba(255, 1, 141, 0.5), 0 17px 50px 0 rgb(100, 200, 150);
+    background-position-x: left;
+    transform-origin: auto;
+    transform: skew(10dg);
+    text-decoration: none;
+   
+}
+#boton{
+    content: "";
+    background: none;
+	z-index: 1;
+    border-radius: 10%;
+    text-align: center;
+    margin-left: 45%;
+
+ }
+ 
